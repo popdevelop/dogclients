@@ -17,6 +17,81 @@
 <script type="text/javascript" src="{{ static_url('res/js/dogvibes-core.js') }}"></script>
 <script type="text/javascript" src="{{ static_url('res/js/dogbone-core.js') }}"></script>
 <script type="text/javascript" src="{{ static_url('res/js/dogbone-modules.js') }}"></script>
+<style>
+html {
+  background-image: url("{{ static_url('res/img/background2.png') }}");
+}
+body {
+  background-image: url("{{ static_url('res/img/top-shadow.png') }}");
+}
+li input.voteButton {
+  background-image: url("{{ static_url('res/img/vote-normal.png') }}");
+}
+li input.voteButton:hover {
+  background-image: url("{{ static_url('res/img/vote-hover.png') }}");
+}
+li input.voteButton.undo {
+  background-image: url("{{ static_url('res/img/vote-undo.png') }}");
+}
+li input.voteButton.undo:hover {
+  background-image: url("{{ static_url('res/img/vote-undo.png') }}");
+}
+li input.voteButton.voting,
+li input.voteButton.voting:hover {
+  background-image: url("{{ static_url('res/img/loading.gif') }}");
+}
+div.loading {
+  background-image: url("{{ static_url('res/img/loading.gif') }}");
+}
+#shade {
+  background-image: url("{{ static_url('res/img/background2.png') }}");
+}
+#top {
+  background-image: url("{{ static_url('res/img/top.png') }}");
+}
+#top h1 {
+  background-image: url("{{ static_url('res/img/dogvibes.png') }}");
+}
+#toolbar #input-frame {
+  background-image: url("{{ static_url('res/img/toggle.png') }}");
+}
+#toolbar #input-frame:hover {
+  background-image: url("{{ static_url('res/img/toggle-hover.png') }}");
+}
+#toolbar #input-frame input{
+  background-image: url("{{ static_url('res/img/toggle-add.png') }}");
+}
+
+#toolbar #input-frame input.social {
+  background-image: url("{{ static_url('res/img/toggle-social.png') }}");
+}
+#leftcol h2 {
+  background-image: url("{{ static_url('res/img/hr.png') }}");
+}
+#midcol ul#tabs {
+  background-image: url("{{ static_url('res/img/hr.png') }}");
+}
+#midcol ul#tracks li.playing h3 {
+  background-image: url("{{ static_url('res/img/nowplaying.png') }}");
+}
+#midcol ul#tracks li.playing div#playIndicator.playing {
+  background-image: url("{{ static_url('res/img/icon_eq.gif') }}")
+}
+#rightcol input#Search-input {
+  background-image: url("{{ static_url('res/img/searchbox.png') }}");
+}
+#rightcol input.button {
+  background-image: url("{{ static_url('res/img/searchbox.png') }}");
+}
+#rightcol ul#Search-content li input.undo,
+#rightcol ul#Search-content li input.undo:hover {
+  background-image: url("{{ static_url('res/img/vote-undo.png') }}");
+}
+#rightcol h2 {
+  background-image: url("{{ static_url('res/img/hr.png') }}");
+}
+
+</style>
 
 <!-- [PARAMS] //-->
 </head>

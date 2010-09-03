@@ -6,11 +6,9 @@
 
 html {
   background-color: #DDD;
-  background-image: url("../img/background2.png");
 }
 
 body {
-  background-image: url("../img/top-shadow.png");
   background-position: 0 49px; 
   background-repeat: repeat-x; 
   margin: auto;
@@ -153,7 +151,6 @@ li.first {
 
 li input.voteButton {
   background-color: transparent;
-  background-image: url('../img/vote-normal.png');
   background-position: right top;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -165,26 +162,12 @@ li input.voteButton {
   border: 0;   
 }
 
-li input.voteButton:hover {
-  background-image: url('../img/vote-hover.png');
-}
-
-li input.voteButton.undo {
-  background-image: url('../img/vote-undo.png');
-}
-
-li input.voteButton.undo:hover {
-  background-image: url('../img/vote-undo.png');
-}
-
 li input.voteButton.voting,
 li input.voteButton.voting:hover {
-  background-image: url('../img/loading.gif');
   background-position: 50% 50%;  
 }
 
 div.loading {
-  background-image: url('../img/loading.gif');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   min-height: 100px;
@@ -222,7 +205,6 @@ div.loading {
   bottom: 0;
   z-index: 100;
   background-color: #eee;
-  background-image: url("../img/background2.png");
 }
 
 /******************************************************************************
@@ -232,7 +214,6 @@ div.loading {
 #top {
   width: 100%;
   height: 49px;
-  background-image: url("../img/top.png");
   background-repeat: repeat-x;
   border-bottom: 1px solid #eee;
 }
@@ -246,7 +227,6 @@ div.loading {
   font-weight: normal;
   color: #999;
   text-indent: -999px;
-  background-image: url("../img/dogvibes.png");
   background-position: top left;  
 }
 
@@ -286,7 +266,6 @@ div.loading {
 
 #toolbar #input-frame {
   float: right;
-  background-image: url("../img/toggle.png");
   background-position: top right;
   border: 0;
   width: 199px;
@@ -298,10 +277,6 @@ div.loading {
   top: 20px;
 }
 
-#toolbar #input-frame:hover {
-  background-image: url('../img/toggle-hover.png');
-}
-
 #toolbar #input-frame input{
   background-color: transparent;
   border: 0;
@@ -310,13 +285,11 @@ div.loading {
   margin: 0;
   padding: 0;
   text-indent: -999px;
-  background-image: url('../img/toggle-add.png');
   background-position: 50% 50%;
   cursor: pointer;
 }
 
 #toolbar #input-frame input.social {
-  background-image: url('../img/toggle-social.png');
   background-position: 50% 50%;  
 }
 
@@ -341,7 +314,6 @@ div.loading {
 }
 
 #leftcol h2 {
-  background-image: url('../img/hr.png');
   background-position: left bottom;
   background-repeat: repeat-x;   
   height: 20px;
@@ -415,7 +387,6 @@ div.loading {
 }
 
 #midcol ul#tabs {
-  background-image: url('../img/hr.png');
   background-position: left bottom;
   background-repeat: repeat-x;   
   height: 20px;
@@ -494,7 +465,6 @@ div.loading {
   left: -13px;
   height: 34px;
   width: 135px;
-  background-image: url("../img/nowplaying.png");
   background-position: top left;  
 }
 
@@ -536,10 +506,6 @@ div.loading {
   display: inline-block;
   width: 12px;
   height: 12px;
-}
-
-#midcol ul#tracks li.playing div#playIndicator.playing {
-  background-image: url("../img/icon_eq.gif")
 }
 
 /*--- Album art ---*/
@@ -624,7 +590,6 @@ div.loading {
   border: 0;
   padding: 0 10px;
   background-color: transparent;
-  background-image: url('../img/searchbox.png');
   background-position: left top;
   background-repeat: no-repeat;   
 }
@@ -635,7 +600,6 @@ div.loading {
   border: 0;
   display: inline-block;
   background-color: transparent;
-  background-image: url('../img/searchbox.png');
   background-position: right top;
   background-repeat: no-repeat;
   text-indent: -999px;
@@ -672,11 +636,6 @@ div.loading {
   top: 1px;
 }
 
-#rightcol ul#Search-content li input.undo,
-#rightcol ul#Search-content li input.undo:hover {
-  background-image: url('../img/vote-undo.png');
-}
-
 #rightcol ul#Search-pagination  {
   float: right;
   margin: 10px;
@@ -710,7 +669,6 @@ div.loading {
 }
 
 #rightcol h2 {
-  background-image: url('../img/hr.png');
   background-position: left bottom;
   background-repeat: repeat-x; 
   margin: 0 10px 7px 10px;
